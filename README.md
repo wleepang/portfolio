@@ -1,34 +1,32 @@
 # W. Lee Pang, Ph.D. - Portfolio
 
-Technology enthusiast with 15+ years turning cloud, data, and AI platforms into demos, workshops, open-source tools, and writing that helps builders build.
+I'm a technology enthusiast and this is my portfolio of work from 15+ years turning cloud, data, and AI platforms into demos, workshops, open-source tools, and writing that helps builders build.
+
+## About me
 
 LinkedIn: [linkedin.com/in/lee-pang-builds](https://linkedin.com/in/lee-pang-builds)
 
+I like to get in the builder / end-user's shoes when working with a product. I like to go beyond the "happy path" and test the boundaries of what can be done.
+
+> Never underestimate the creativity of your users. -- me, at many product development meetings
+
+Exposing rough edges and novel use cases is where things get fun, and when I start messaging product managers or making pull-requests.
+
 ## Start here
 
-1. **[Orchestrating Multiple AWS HealthOmics Workflows at Scale](https://aws.amazon.com/blogs/industries/orchestrating-multiple-aws-healthomics-workflows-at-scale/)** (May 2024) -
-   Architecture walkthrough for running many workflow runs reliably; a template for the kind of
-   deep-dive I write.
-2. **[Integrate and derive insights from multi-modal health data (AIM206)](https://www.youtube.com/live/78vNPmkLFMI)** (re:Invent 2022) -
+1. **[New Tools to Accelerate Workflow Migrations to AWS HealthOmics](https://aws.amazon.com/blogs/industries/new-tools-to-accelerate-workflow-migrations-to-aws-healthomics/)** (Dec 2023) -
+   Co-authored with Mark Schreiber. Two tools I helped build for moving genomics workflows onto HealthOmics: a WDL linter that catches incompatibilities before a multi-hour run, and a helper that stages container images in ECR. A Biogen researcher reported their first migration took about 16 hours and expected the next to take an hour or so.
+2. **[Integrate and derive insights from multi-modal health data (AIM206)](https://www.youtube.com/live/78vNPmkLFMI)** -
    Session I co-presented with [Taha Kass-Hout](https://www.linkedin.com/in/tahak/), on combining health data types on AWS.
-3. **[Amazon Genomics CLI](https://github.com/aws/amazon-genomics-cli)** (2021-22) - An open-source product I built and launched at AWS that simplified running genomics analyses on AWS.
-4. **[Genomics Workflows on AWS](https://github.com/aws-samples/aws-genomics-workflows)** (2018-22) - Reference architecture used by ~100+ customers that I created and helped to establish the Genomics technical field at AWS.
+3. **[Genomics Workflows on AWS](https://github.com/aws-samples/aws-genomics-workflows)** (2018-22) - An open-source reference architecture used by ~100+ customers that I created and helped to establish the Genomics technical field at AWS.
 
-## What's in here
+## Dive deeper
 
 | Section | What you will find |
 |---|---|
-| [Writing](docs/writing.md) | ~28 blog posts (authored and editorial-supported), 2018-2024 |
-| [Talks and video](docs/talks.md) | Talks, workshops, webinars, and demos, with recordings where they exist |
-| [Open source](docs/open-source.md) | Projects I led, upstream PRs, personal tools |
-| [Community](docs/community.md) | OpenWDL, Nextflow, nf-core, GA4GH |
-
-## How I work
-
-I like to get in the builder / end-user's shoes when working with a product. What are the interesting ways to use it? Rough edges, no problem! That's actually where things get fun. Building work-arounds informs where assumptions need to be challenged and where I start messaging product managers or making pull-requests.
-
-## Notes
-
-Links are checked weekly; if one breaks, open an issue.
+| [Writing](docs/writing.md) | My blog posts (~28 and counting) |
+| [Talks and video](docs/talks.md) | Talks, workshops, webinars, and demos |
+| [Open source](docs/open-source.md) | Projects I built or contributed to |
+| [Community](docs/community.md) | Communities I'm active in |
 
 Text is CC BY 4.0. Code in linked repos carries its own license.

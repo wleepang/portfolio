@@ -14,9 +14,10 @@
 
 ## Upstream contributions
 
-- **[Nextflow #1594: AWS CodeCommit support](https://github.com/nextflow-io/nextflow/pull/1594)** - *PR, opened May 2020, merged.* Lets Nextflow pull pipelines directly from AWS CodeCommit git repositories.
+- **[miniwdl #793: fix asyncio.get_event_loop() error](https://github.com/chanzuckerberg/miniwdl/pull/793)** - *PR, opened Jul 2025, merged.* Fixes `WDL.load()` failing in interactive sessions such as IPython on Python 3.11+, where `asyncio.get_event_loop()` now raises an error.
+- **[Snakemake #2324: native AWS Batch support](https://github.com/snakemake/snakemake/pull/2324)** - *PR, opened Jun 2023, closed Mar 2026 without merging.* As Amazon Genomics CLI was being retired, I contributed its AWS Batch execution functionality upstream to Snakemake so it would outlive the project. After Snakemake 8 the maintainer asked for the work to move into an executor plugin, and the official [snakemake-executor-plugin-aws-batch](https://github.com/snakemake/snakemake-executor-plugin-aws-batch) now exists, so the PR was closed in its favor.
 - **[miniwdl-aws #8: GPU resource requests](https://github.com/miniwdl-ext/miniwdl-aws/pull/8)** - *PR, opened Jun 2022, merged.* Lets WDL tasks request GPUs when run on AWS through miniwdl.
-- **[Snakemake #2324: native AWS Batch support](https://github.com/snakemake/snakemake/pull/2324)** - *PR, opened Jun 2023, closed without merging.* An attempt at running Snakemake workflows directly on AWS Batch; it did not land.
+- **[Nextflow #1594: AWS CodeCommit support](https://github.com/nextflow-io/nextflow/pull/1594)** - *PR, opened May 2020, merged.* Lets Nextflow pull pipelines directly from AWS CodeCommit git repositories.
 
 ## Personal projects
 
