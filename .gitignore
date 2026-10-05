@@ -1,0 +1,5 @@
+site/
+.cache/
+# generated from README.md by the build
+docs/index.md
+.claude/

@@ -1,0 +1,47 @@
+site_name: W. Lee Pang, Ph.D.
+site_description: Public index of W. Lee Pang's technical writing, talks, videos, and open source.
+site_url: https://wleepang.github.io/portfolio/
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle: {icon: material/weather-night, name: Dark mode}
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle: {icon: material/weather-sunny, name: Light mode}
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.highlight
+    - content.action.edit
+
+nav:
+  - Home: index.md
+  - Writing: writing.md
+  - Talks: talks.md
+  - Video: video.md
+  - Open source: open-source.md
+  - Community: community.md
+
+plugins:
+  - exclude:
+      glob:
+        - CONVENTIONS.md
+
+markdown_extensions:
+  - tables
+  - md_in_html
+  - attr_list
+  - toc:
+      permalink: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/wleepang
+      name: wleepang on GitHub
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/lee-pang-builds
+      name: W. Lee Pang on LinkedIn
