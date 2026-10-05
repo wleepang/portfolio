@@ -20,8 +20,7 @@ theme:
 nav:
   - Home: index.md
   - Writing: writing.md
-  - Talks: talks.md
-  - Video: video.md
+  - Talks and video: talks.md
   - Open source: open-source.md
   - Community: community.md
 

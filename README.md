@@ -12,16 +12,14 @@ LinkedIn: [linkedin.com/in/lee-pang-builds](https://linkedin.com/in/lee-pang-bui
 2. **[Integrate and derive insights from multi-modal health data (AIM206)](https://www.youtube.com/live/78vNPmkLFMI)** (re:Invent 2022) -
    Session I co-presented with [Taha Kass-Hout](https://www.linkedin.com/in/tahak/), on combining health data types on AWS.
 3. **[Amazon Genomics CLI](https://github.com/aws/amazon-genomics-cli)** (2021-22) - An open-source product I built and launched at AWS that simplified running genomics analyses on AWS.
-4. **[Genomics Workflows on AWS](https://github.com/aws-samples/aws-genomics-workflows)** (2018-22) -
-   Reference architecture used by ~100+ customers that I created and helped to establish the Genomics technical field at AWS.
+4. **[Genomics Workflows on AWS](https://github.com/aws-samples/aws-genomics-workflows)** (2018-22) - Reference architecture used by ~100+ customers that I created and helped to establish the Genomics technical field at AWS.
 
 ## What's in here
 
 | Section | What you will find |
 |---|---|
 | [Writing](docs/writing.md) | ~28 blog posts (authored and editorial-supported), 2018-2024 |
-| [Talks](docs/talks.md) | re:Invent 2019 and 2022, BOSC/BCC 2020, NextflowCamp 2019, BioIT |
-| [Video](docs/video.md) | Demos, webinars, and workshop videos |
+| [Talks and video](docs/talks.md) | Talks, workshops, webinars, and demos, with recordings where they exist |
 | [Open source](docs/open-source.md) | Projects I led, upstream PRs, personal tools |
 | [Community](docs/community.md) | OpenWDL, Nextflow, nf-core, GA4GH |
 
