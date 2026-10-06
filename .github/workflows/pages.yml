@@ -22,7 +22,6 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-          cache: pip
       # Version floats while Zensical is pre-1.0; pin here if a release breaks the build.
       - run: pip install zensical
       - name: Generate docs/index.md from README.md
