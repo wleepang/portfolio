@@ -15,7 +15,7 @@ Exposing rough edges and novel use cases is where things get fun, and when I sta
 ## Start here
 
 1. **[New Tools to Accelerate Workflow Migrations to AWS HealthOmics](https://aws.amazon.com/blogs/industries/new-tools-to-accelerate-workflow-migrations-to-aws-healthomics/)** (Dec 2023) -
-   Co-authored with Mark Schreiber. Two tools I helped build for moving genomics workflows onto HealthOmics: a WDL linter that catches incompatibilities before a multi-hour run, and a helper that stages container images in ECR. A Biogen researcher reported their first migration took about 16 hours and expected the next to take an hour or so.
+   Co-authored with Mark Schreiber. Blog post on two tools we built for moving genomics workflows onto HealthOmics: a WDL linter that catches incompatibilities before a multi-hour run, and a helper that stages container images in ECR.
 2. **[Integrate and derive insights from multi-modal health data (AIM206)](https://www.youtube.com/live/78vNPmkLFMI)** -
    Session I co-presented with [Taha Kass-Hout](https://www.linkedin.com/in/tahak/), on combining health data types on AWS.
 3. **[Genomics Workflows on AWS](https://github.com/aws-samples/aws-genomics-workflows)** (2018-22) - An open-source reference architecture used by ~100+ customers that I created and helped to establish the Genomics technical field at AWS.
